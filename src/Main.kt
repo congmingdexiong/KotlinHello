@@ -19,4 +19,7 @@ fun main() {
 
     val c = "${str}is good"
     println(c)
+
+    var d = if (2>1) "yes" else "no"
+    println(d)
 }
